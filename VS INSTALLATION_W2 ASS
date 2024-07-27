@@ -1,0 +1,104 @@
+Installation of VS Code:
+1.	Download VS Code:
+•	Visit the official Visual Studio Code website.
+•	Click the "Download for Windows" button.
+•	Save the downloaded .exe file to your computer.
+2.	Install VS Code:
+•	Double-click the downloaded .exe file to start the installation process.
+•	Follow the on-screen instructions: accept the agreement, choose the installation location (default is fine), select additional tasks (like creating a desktop icon), and click "Next."
+•	Click "Install" to begin the installation.
+•	Once the installation is complete, click "Finish" to launch Visual Studio Code.
+3.	Prerequisites:
+•	Ensure you have administrative privileges to install software on your computer.
+•	Install the latest version of Git if you plan to use Git for version control.
+First-time Setup:
+1.	Initial Configurations:
+•	Theme: Go to File > Preferences > Color Theme to select a theme that suits your preference.
+•	Font Size: Go to File > Preferences > Settings, search for "Font Size" and adjust it to your liking.
+2.	Extensions:
+•	Open the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window or pressing Ctrl+Shift+X.
+•	Search for and install essential extensions like: ESLint: For linting JavaScript and TypeScript, Prettier: For code formatting, Live Server: For a quick development live server with live browser reload, Python: If you plan to work with Python.
+User Interface Overview:
+1.	Activity Bar: Located on the far left, it provides access to different views such as Explorer, Search, Source Control, Debug, and Extensions.
+2.	Side Bar: Displays different views and functions depending on the activity selected in the Activity Bar. For example, the Explorer view shows your project files and folders.
+3.	Editor Group: The main area where you edit your files. You can split the editor into multiple groups to view and edit multiple files side-by-side.
+4.	Status Bar: Located at the bottom, it displays information about the opened project and the current file, such as line and column number, encoding, and Git branch.
+Command Palette:
+1.	What is the Command Palette: The Command Palette provides quick access to all VS Code commands?
+2.	Accessing the Command Palette: Press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac) to open it.
+3.	Examples of Common Tasks:
+•	Opening files: Type Open File and select a file.
+•	Running a build task: Type Run Task and select the task.
+•	Installing extensions: Type Extensions: Install Extensions.
+Extensions in VS Code:
+1.	Role of Extensions: Extensions enhance the functionality of VS Code by adding new features and tools.
+2.	Finding and Installing Extensions:
+•	Click the Extensions icon in the Activity Bar.
+•	Use the search bar to find extensions.
+•	Click Install on the desired extension.
+3.	Managing Extensions: Installed extensions can be managed from the Extensions view. Click the gear icon next to an extension to disable, uninstall, or configure it.
+4.	Essential Extensions for Web Development:
+•	ESLint
+•	Prettier
+•	Live Server
+•	Debugger for Chrome
+Integrated Terminal:
+1.	Opening the Integrated Terminal: Go to View > Terminal or press Ctrl+ (Windows/Linux) or Cmd+ (Mac).
+2.	Using the Integrated Terminal: You can run command-line tools directly within VS Code, making it convenient to execute Git commands, run scripts, or compile code.
+3.	Advantages:
+•	Eliminates the need to switch between VS Code and an external terminal.
+•	Supports multiple terminal sessions.
+File and Folder Management:
+1.	Creating Files and Folders: Right-click in the Explorer view and select New File or New Folder.
+2.	Opening Files and Folders:
+•	Click File > Open File or Open Folder.
+•	Use Ctrl+P to quickly open files by typing their name.
+3.	Navigating Files and Directories:
+•	Use the Explorer view to browse your files.
+•	Use Ctrl+Tab to switch between open files.
+Settings and Preferences:
+1.	Finding and Customizing Settings:
+•	Go to File > Preferences > Settings or press Ctrl+,
+•	Use the search bar to find specific settings.
+2.	Examples:
+•	Changing the Theme: Search for "Color Theme" and select a new theme.
+•	Adjusting Font Size: Search for "Font Size" and change the value.
+•	Keybindings: Go to File > Preferences > Keyboard Shortcuts to customize keybindings.
+Debugging in VS Code:
+1.	Setting Up Debugging:
+•	Open a file to debug and set breakpoints by clicking in the gutter next to the line numbers.
+•	Go to the Run view by clicking the Run icon in the Activity Bar.
+•	Click Create a launch.json file and select the appropriate environment.
+2.	Starting Debugging: Press F5 to start debugging.
+3.	Key Debugging Features:
+•	Breakpoints: Pause the execution at specific lines.
+•	Watch Variables: Monitor the values of variables.
+•	Call Stack: View the stack trace of function calls.
+•	Debug Console: Execute commands and evaluate expressions.
+Using Source Control:
+1.	Integrating Git with VS Code:
+•	Ensure Git is installed on your system.
+•	Open the Source Control view by clicking the Source Control icon in the Activity Bar.
+2.	Initializing a Repository: Click Initialize Repository in the Source Control view.
+3.	Making Commits:
+•	Stage changes by clicking the + icon next to the files.
+•	Enter a commit message and click Commit.
+4.	Pushing Changes to GitHub:
+•	Click the ... menu in the Source Control view and select Push.
+•	Follow the prompts to authenticate with GitHub and push your changes.
+Submission Guidelines:
+•	Ensure your answers are structured, concise, and clear.
+•	Include screenshots or step-by-step instructions where applicable.
+•	Cite references or sources if used.
+Reference:
+1.	Visual Studio Code Official Website: This is the primary source for downloading and obtaining information about Visual Studio Code. Visual Studio Code
+2.	Visual Studio Code Documentation: This includes detailed instructions on installation, setup, and usage of various features in VS Code.
+•	Getting Started with Visual Studio Code
+•	User Interface
+•	Command Palette
+•	Integrated Terminal
+•	Extensions
+•	Settings and Preferences
+•	Debugging
+•	Source Control with Git
+3.	Git Official Website: This site provides information on installing and using Git for version control.
